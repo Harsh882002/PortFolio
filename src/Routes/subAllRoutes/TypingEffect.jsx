@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import './middle-part.css'
+import './allroutes.css'
 
 
 export const SetTypingEffect = () =>{

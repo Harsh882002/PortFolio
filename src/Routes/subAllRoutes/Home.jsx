@@ -1,8 +1,8 @@
-import './middle-part.css'
 import { SetTypingEffect } from './TypingEffect'
+import './allroutes.css'
+ 
 
-
-export const Middle_part = () => {
+export const Home = () => {
     return (
         <>
             <div className="middle-part">

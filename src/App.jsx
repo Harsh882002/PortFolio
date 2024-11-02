@@ -1,15 +1,17 @@
 
 import './App.css'
-import { Footer } from './Footer/Footer'
-import { Header } from './header/Header'
-import { Middle_part } from './middle-part/Middle_part'
+import { AllLayout } from './layout/AllLayout'
+import { AllRoutes } from './Routes/AllRoute'
  
 function App() {
   return (
     <>
-      <Header />
-      <Middle_part />
-      <Footer />
+      <AllRoutes />
+
+
+      {/* <AllLayout /> */}
+      
+
     </>
   )
 }
