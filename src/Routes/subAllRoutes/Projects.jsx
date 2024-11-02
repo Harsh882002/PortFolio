@@ -1,4 +1,4 @@
-export const AllProjects = () =>{
+export const Skills = () =>{
 
     return(
         <>

@@ -1,7 +1,7 @@
 import './allroutes.css'
 
 
-export const Resume = () => {
+export const About = () => {
 
     return (
         <>

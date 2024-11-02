@@ -1,8 +1,8 @@
  import { AllLayout } from "../layout/AllLayout"
  import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from "./subAllRoutes/Home";
-import { AllProjects } from "./subAllRoutes/Projects";
-import { Resume } from "./subAllRoutes/Resume";
+import {  Skills } from "./subAllRoutes/Projects";
+import { About } from "./subAllRoutes/Resume";
 import { Gallery } from "./subAllRoutes/Gallery";
 import { Contact } from "./subAllRoutes/Contact";
  
@@ -19,13 +19,13 @@ export const AllRoutes = () => {
                 },
 
                 {
-                    path: "/projects",
-                    element: <AllProjects />
+                    path: "/skills",
+                    element: <Skills />
                 },
 
                 {
-                    path:"/resume",
-                    element:<Resume />
+                    path:"/about",
+                    element:<About />
                 },
 
                 {
