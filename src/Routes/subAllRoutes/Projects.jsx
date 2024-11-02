@@ -1,8 +1,23 @@
-export const Skills = () =>{
+import skill from './Api/skills.json';
 
-    return(
+export const Skills = () => {
+
+    return (
         <>
-        <h1>Projects Page</h1>
+
+            <ul>
+                {
+                    Object.entries(skill.skills).map(([category, skills]) => (
+           <div>
+                        <h1>{category}</h1>
+           </div>
+
+           
+
+
+                    ))
+                }
+            </ul>
         </>
     )
 }
