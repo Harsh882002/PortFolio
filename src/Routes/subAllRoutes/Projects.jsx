@@ -19,8 +19,12 @@ export const Skills = () => {
                                             src={skill.image} 
                                             alt={`${skill.name} logo`} 
                                             aria-label={`${skill.name} icon`} 
+
+                                            onClick={() => window.open(skill.click, "_blank")}
+                                            style={{cursor:"pointer"}}
                                         />
                                         
+                                        {/* <button><a href={skill.click}>click me</a></button> */}
                                          
                                     </div>
                                 ))

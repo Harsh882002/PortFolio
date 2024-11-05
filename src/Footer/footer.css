@@ -10,8 +10,21 @@ font-size: bold;
 .connect{
     justify-content: center;
 }
+h2{
+    color: yellow;
+}
 
 button{
 
     font-size: 25px;
+}
+
+.footer{
+    position: fixed;
+
+     background-color: #1e3a8a;
+    /* height: 100px; */
+    margin-top: 100px;
+    position: sticky;
+
 }

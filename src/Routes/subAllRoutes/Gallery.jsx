@@ -7,16 +7,23 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export const Gallery = () =>{
 
 const images = [
-    'bg_porfolio.jpg',
-    'my img1.png',
-    'my_pic.JPG'
+    '/gallery/g1.jpg',
+    '/gallery/g2.jpg',
+    '/gallery/g3.jpg',
+    '/gallery/g4.jpg',
+    '/gallery/g5.jpg',
+    '/gallery/g6.jpg',
+    '/gallery/g7.jpg',
+    '/gallery/g8.jpg',
+    '/gallery/g9.jpg',
+    '/gallery/g10.jpg'
 ];
 
     return(
         <>
 <Swiper 
 modules={[ Autoplay, Pagination, Navigation]}
-autoplay={{delay:3000, disableOnInteraction: false}}
+autoplay={{delay:1000, disableOnInteraction: false}}
 pagination={{clickable: true}}
 navigation={true}
 loop={true}
@@ -30,6 +37,7 @@ className="mySwiper"
 ))}
 </Swiper>
 
+<h2>DURING SESSION IMAGES </h2>
 
 
         </>

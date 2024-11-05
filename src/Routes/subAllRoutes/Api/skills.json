@@ -4,30 +4,35 @@
             {
                 "name": "HTML5",
                 "image": "skills/html.png",
+                "click": "https://html.com/document/",
                 "description": "Markup language for structuring web content.",
                 "experience": "Developed multiple responsive websites using HTML5."
             },
             {
                 "name": "CSS3",
                 "image": "skills/css.jpeg",
+                "click": "https://devdocs.io/css/",
                 "description": "Styling language for designing and enhancing web layouts.",
                 "experience": "Implemented complex layouts and animations for web applications."
             },
             {
                 "name": "JavaScript",
                 "image": "skills/js.webp",
+                "click": "https://devdocs.io/javascript/",
                 "description": "Programming language for creating dynamic web content.",
                 "experience": "Built interactive features for websites and applications."
             },
             {
                 "name": "Bootstrap",
                 "image": "skills/bootstrap.jpeg",
+                "click": "https://getbootstrap.com/",
                 "description": "CSS framework for responsive web design.",
                 "experience": "Created mobile-first websites with Bootstrap components."
             },
             {
                 "name": "React",
                 "image": "skills/react.webp",
+                "click": "https://legacy.reactjs.org/docs/getting-started.html",
                 "description": "JavaScript library for building user interfaces.",
                 "experience": "Developed single-page applications (SPAs) using React."
             }
@@ -36,12 +41,14 @@
             {
                 "name": "Node.js",
                 "image": "skills/nodejs.jpg",
+                "click": "https://nodejs.org/docs/latest/api/",
                 "description": "JavaScript runtime for building fast and scalable server-side applications.",
                 "experience": "Developed RESTful APIs and backend services using Node.js and Express."
             },
             {
                 "name": "PHP",
                 "image": "skills/php.webp",
+                "click": "https://www.php.net/docs.php",
                 "description": "Server-side scripting language for web development.",
                 "experience": "Developed dynamic web applications and RESTful APIs with PHP."
             }
@@ -50,18 +57,21 @@
             {
                 "name": "MySQL",
                 "image": "skills/mysql.png",
+                "click": "https://dev.mysql.com/doc/",
                 "description": "Relational database management system for data storage and retrieval.",
                 "experience": "Managed databases for multiple web applications."
             },
             {
                 "name": "MongoDB",
                 "image": "skills/mongodb.png",
+                "click": "https://www.mongodb.com/docs/",
                 "description": "NoSQL database for flexible, scalable data storage.",
                 "experience": "Used MongoDB for data storage in web applications."
             },
             {
                 "name": "Redis",
                 "image": "skills/redis.png",
+                "click": "https://redis.io/docs/latest/",
                 "description": "In-memory data store used as a database, cache, and message broker.",
                 "experience": "Implemented caching strategies to improve application performance."
             }
@@ -70,12 +80,14 @@
             {
                 "name": "Git",
                 "image": "skills/git.png",
+                "click": "https://git-scm.com/doc",
                 "description": "Version control system for tracking code changes.",
                 "experience": "Collaborated on projects using Git for version control."
             },
             {
                 "name": "Linux",
                 "image": "skills/linux.png",
+                "click": "https://www.kernel.org/doc/html/v4.10/index.html",
                 "description": "Open-source operating system for development and server environments.",
                 "experience": "Utilized Linux servers for hosting web applications."
             }
