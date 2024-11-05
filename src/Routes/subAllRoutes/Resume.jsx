@@ -14,14 +14,14 @@ export const About = () => {
         <div className='resume'>
             <button onClick={handleShow} className='showResume-btn'>{showResume ? 'show' : "Show"} Resume</button>
             <div className='showResume'>
-                {
+                 {
                     showResume && (
-                        <img src="dev_Harsh_Resume.png" alt="resume" />
+                         <img src="dev_Harsh_Resume.png" alt="resume" />
                     )
                 }
             </div>
 
-            <button><a href="Resume/dev_Harsh_Resume.pdf"
+            <button className='showResume1'><a href="Resume/dev_Harsh_Resume.pdf"
                 download="resume.pdf"
             >Download Resume</a></button>
             </div>

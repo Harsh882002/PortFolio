@@ -62,20 +62,38 @@ h1 {
 .resume{
      margin-top: 22px;
      margin-left: 5%;
+      
  }
 
 .showResume
 {
     padding: 22px;
     margin-left: 22%;
-}
+ }
+
+ .showResume1
+{
+     margin-top: -80px;
+    margin-right: 5%;
+     float: right;
+     background-color: aqua;
+     border-radius: 10px;
+
+ }
+ .showResume1 a{
+    text-decoration: none;
+color: black;
+ }
+ 
 .showResume img {
-    width: 60%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 .showResume-btn{
-/* margin-left: 20%; */
+    background-color: green;
+    border-radius: 10px;
+    color: white;
 }
 
 
