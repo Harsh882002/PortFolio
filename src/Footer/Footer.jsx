@@ -38,7 +38,7 @@ export const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="mailto:harshpatle491@gmail.com?subject=Hello&body=I would like to connect." target='_blank' rel='noopener noreferrer'>
                             <button> <SiGmail /> </button>
                         </a>
                     </li>
