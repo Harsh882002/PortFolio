@@ -20,13 +20,13 @@ export const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/harsh-patle-0ab840222/">
                             <button><FaLinkedin /></button>
                         </a>
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="https://www.instagram.com/itss_harsh02/">
                             <button> <CiInstagram /> </button>
                         </a>
                     </li>
@@ -38,7 +38,7 @@ export const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="mailto:harshpatle491@gmail.com?subject=Hello&body=I would like to connect." target='_blank' >
+                        <a href="mailto:harshpatle491@gmail.com?subject=Hello&body=I would like to connect."   >
                             <button> <SiGmail /> </button>
                         </a>
                     </li>
