@@ -10,7 +10,7 @@ export const Footer = () => {
     return (
         <>
             <div className='footer'>
-                <h2>Connect with me </h2>
+                <h2>Connect with mee </h2>
 
                 <ul className='connect'>
                     <li>

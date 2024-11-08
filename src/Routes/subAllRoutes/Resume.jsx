@@ -12,7 +12,7 @@ export const About = () => {
     return (
         <>
         <div className='resume'>
-            <button onClick={handleShow} className='showResume-btn'>{showResume ? 'show' : "Show"} Resume</button>
+            <button onClick={handleShow} className='showResume-btn'>{showResume ? 'show' : "show"} Resume</button>
             <div className='showResume'>
                  {
                     showResume && (
