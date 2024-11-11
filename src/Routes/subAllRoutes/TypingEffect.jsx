@@ -23,7 +23,7 @@ export const SetTypingEffect = () => {
                 const timeout = setTimeout(() => {
                     setDisplayText((prev) => prev + data[lineIndex][charIndex]);
                     setCharIndex((prev) => prev + 1);
-                }, 100)
+                }, 150)
                 return () => clearTimeout(timeout);
             } else {
 
