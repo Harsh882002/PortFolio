@@ -24,8 +24,7 @@ export const Skills = () => {
                                             style={{cursor:"pointer"}}
                                         />
                                         
-                                        {/* <button><a href={skill.click}>click me</a></button> */}
-                                         
+                                          
                                     </div>
                                 ))
                             }
