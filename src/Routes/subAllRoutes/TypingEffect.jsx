@@ -15,7 +15,6 @@ export const SetTypingEffect = () => {
     const [lineIndex, setLineIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
 
-
     useEffect(() => {
 
         if (lineIndex < data.length) {
