@@ -5,7 +5,7 @@ export const Contact = () => {
         <>
             <form action="">
 
-                <label htmlFor="">Name</label>
+                <label htmlFor="">YOur Name</label>
                 <input type="text" placeholder="Enter Your Name" name="name" />
                 <br />
                 <label htmlFor="">Email</label>

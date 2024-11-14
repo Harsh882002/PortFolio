@@ -23,7 +23,7 @@ export const About = () => {
 
             <button className='showResume1'><a href="Resume/dev_Harsh_Resume.pdf"
                 download="resume.pdf"
-            >Download Resume</a></button>
+            >Download MyResume</a></button>
             </div>
         </>
     )
