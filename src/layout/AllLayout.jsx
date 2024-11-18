@@ -8,7 +8,7 @@ export const AllLayout = () => {
         <>
             <Header />
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     )
