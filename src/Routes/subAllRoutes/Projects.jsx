@@ -1,4 +1,6 @@
 import skill from './Api/skills.json';
+import './allroutes.css';
+
 
 export const Skills = () => {
     return (
@@ -16,6 +18,7 @@ export const Skills = () => {
                                         <span className='skill-name'>{skill.name}</span>
 
                                         <img 
+                                    
                                             src={skill.image} 
                                             alt={`${skill.name} logo`} 
                                             aria-label={`${skill.name} icon`} 

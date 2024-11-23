@@ -1,31 +1,33 @@
-h2{
+h2 {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: bold;
-/* color: green; */
+    font-size: bold;
+    margin-top: 35%;
+    /* color: green; */
 }
 
-.connect{
+.connect {
     justify-content: center;
 }
-h2{
+
+h2 {
     color: rgb(252, 252, 248);
 }
 
-button{
+button {
 
-    font-size: 25px;
+    font-size: 10px;
 }
 
-.footer{
+.footer {
     position: fixed;
 
-     /* background-color: #1e3a8a; */
-       bottom: 0;
-    left: 0;  
-     text-align: center;
+    /* background-color: #1e3a8a; */
+    bottom: 0;
+    left: 0;
+    text-align: center;
     width: 100%;
- 
+
 }

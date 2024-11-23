@@ -14,26 +14,24 @@
     margin-top: 5%;
     /* background-image: url('bg_porfolio.jpg'); */
     /* background-color: rgb(80, 83, 122); */
-    background-repeat: no-repeat;
-    background-size: 75%;
-    background-position: center;
+     background-position: center;
     background-clip: border-box;
 }
 
 .middle-part img {
     /* display: block; */
     width: 15%;
-    height: 10%;
-    border-radius: 10px;
+    height: 15%;
+    /* border-radius: px; */
     border: 1px solid rgb(246, 246, 240);
-    margin-top: 44px;
+    /* margin-top: 4px; */
     margin-left: 25%;
     background-color: transparent;
 
     /* for giving slow to image  */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
-        0 0 20px rgba(255, 255, 255, 0.5),
-        0 0 30px rgba(255, 255, 255, 0.4);
+        0 0 20px rgba(25, 25, 55, 0.3),
+        0 0 30px rgba(25, 25, 25, 0.2);
 
     /* Optional: enhance brightness */
     filter: brightness(1.2);
@@ -54,7 +52,7 @@ h1 {
 
     margin-left: 42%;
     margin-top: -18%;
-    font-size: 11px;
+    font-size: 5px;
 }
 
 /* RESUME CSS  */
@@ -133,13 +131,13 @@ color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 35px;
-    color: rgb(247, 247, 0);
+    color: rgb(195, 61, 159);
 }
 
 .skill-ele {
-    width: 12%;
-    height: 175px;
-    border: 5px solid purple;
+    width: 15%;
+    height: 160px;
+    /* border: 5px solid purple; */
     /* padding: 2px; */
     margin: 40px;
     margin-top: 52px;
@@ -156,7 +154,7 @@ color: black;
 }
 
 .skills img {
-    width: 105px;
+    width: 90px;
     height: auto;
     margin-top: -25px;
     padding: 40px;
